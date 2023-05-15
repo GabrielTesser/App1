@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <Button Text="Selecionar imagem" Clicked="Button_Clicked" />
+
+        <Image x:Name="cavalos" Scale="5" Margin="50"/>
+
+        <Button Text="vai para outra pagina carai" Clicked="Button_Clicked_1" />
+    </StackLayout>
+
+</ContentPage>
